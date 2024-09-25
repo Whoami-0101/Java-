@@ -1,18 +1,22 @@
-## Getting Started
+Este código em Java realiza uma pesquisa de opinião sobre um cinema, coletando dados de até 40 entrevistados. Aqui está um resumo das principais funcionalidades:
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Coleta de Dados: O programa pergunta o nome e a idade de cada entrevistado e solicita que classifiquem sua experiência com o cinema, utilizando uma escala de notas de 'Ótimo' a 'Péssimo'.
 
-## Folder Structure
+Contagem de Respostas: As respostas são contabilizadas em diferentes variáveis:
 
-The workspace contains two folders by default, where:
+otimo: contador para respostas "Ótimo"
+bom: contador para respostas "Bom"
+regular: contador para respostas "Regular"
+ruim: contador para respostas "Ruim"
+pessimo: contador para respostas "Péssimo"
+Cálculo de Estatísticas: O código calcula e exibe:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+O número total de respostas "Ótimas".
+A média de idade dos entrevistados que escolheram "Ruim".
+A porcentagem de respostas "Péssimo".
+A média geral das notas, calculada com base nas classificações.
+Estruturas de Controle: Utiliza um loop while para coletar dados de até 40 entrevistados e um switch para processar as respostas. Mensagens são mostradas ao usuário utilizando JOptionPane.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Resultados Finais: Após a coleta, o programa apresenta os resultados da pesquisa, incluindo as contagens e médias calculadas.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Em resumo, o código serve para coletar e analisar opiniões sobre um cinema, proporcionando um feedback estatístico sobre a experiência dos clientes.
