@@ -15,7 +15,7 @@ public class App {
         JOptionPane.showMessageDialog(null, "cinema");
 
         // ESTRUTURA DE REPETIÇÃO WHILE
-        while (numAssentos < 40git ) { //O loop while permite coletar dados de até 4 entrevistados.
+        while (numAssentos < 40) { //O loop while permite coletar dados de até 4 entrevistados.
 
             nomeEntrevistado = JOptionPane.showInputDialog("Entrevistado " + contEntrevistado + " Qual é seu nome?"); // coletar o nome do entrevistado.
             idade = Integer.parseInt(
