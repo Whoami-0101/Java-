@@ -15,4 +15,8 @@ Este projeto em Java utiliza a biblioteca JOptionPane para coletar e analisar a 
 
 ## Tecnologias utilizadas
 * [Java ](https://www.java.com/pt-BR/): linguagem de programação
+<<<<<<< HEAD
 ##
+=======
+##
+>>>>>>> 36d02a7d9bc68c9f72480ea300439d18c043fb96
